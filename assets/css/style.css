@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto+Condensed&family=Roboto+Slab:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+.contenedor {
+  background-color: rgb(101, 111, 157);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Todo {
+  width: 600px;
+  background-color: rgb(245, 245, 245);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(67, 145, 67);
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(38, 109, 38);
+}
+
+input[type="text"] {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
+
+section {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.tachar {
+  text-decoration: line-through;
+}
+
+img:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 4px;
+}
+
+.checkbox:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 4px;
+  /* background-color: black; */
+}
+
+table {
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+}
